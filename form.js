@@ -96,15 +96,15 @@ function validaPaciente(paciente){
  }
 
     if(paciente.gordura.length == 0){
-        erros.push("A gordura não pode ser em branco");
+        erros.push("A gordura não pode ser em branco!");
     }
 
     if(paciente.peso.length == 0){
-        erros.push("O peso não pode ser em branco");
+        erros.push("O peso não pode ser em branco!");
     }
 
     if(paciente.altura.length == 0){
-        erros.push("A altura não pode ser em branco");
+        erros.push("A altura não pode ser em branco!");
     }
     return erros;
 }
